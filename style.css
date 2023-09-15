@@ -1,0 +1,21 @@
+html{
+    calc(100% / 3);
+}
+
+body{
+    display: grid;
+    grid-template-columns: repeat(3, 250px) 100px;
+    grid-column-start: 2;
+    grid-column-end: 4;
+    grid-row-start: 3;
+    grid-row-end: 5;
+}
+
+h1{
+    size:3rem
+    color:red
+}
+
+p:hover{
+    color:purple
+}
